@@ -58,8 +58,8 @@ screen = pygame.display.set_mode((WIDTH, HEIGHT))
 clock = pygame.time.Clock()
 FPS = 60
 
-pygame.mixer.music.load('bgm.wav')
-pygame.mixer.music.play(-1)
+# pygame.mixer.music.load('bgm.wav')
+# pygame.mixer.music.play(-1)
 
 bg_image = pygame.image.load('bg.jpg')
 image_width = 2053
