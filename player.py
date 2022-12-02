@@ -11,7 +11,7 @@ class Player:
         self.boom_image = pygame.transform.scale(self.boom_image, (80, 80))
 
         # [미션1] 비행기가 총알에 맞았을 때 효과음이 발생하도록 한다.
-        self.soundObj = pygame.mixer.Sound('boom.mp3')
+        # self.soundObj = pygame.mixer.Sound('boom.mp3')
 
         # [미션 2], [미션 4] 터지는 그림효과와 무적을 위한 변수 설정
         self.unbeatable_flag = 0
@@ -56,7 +56,7 @@ class Player:
         if self.unbeatable_flag == 0:
 
             # [미션1] 충돌시 효과음 재생
-            self.soundObj.play()
+            # self.soundObj.play()
 
             # 변수로 받은 num가 총알의 종류를 의미한다. -> 차감되는 생명력을 다르게 한다.
             if num == 2:
