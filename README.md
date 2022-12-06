@@ -1,2 +1,3 @@
 # Pygame
-Avoid bullet game with python
+
+Bullet avoidance game using python
